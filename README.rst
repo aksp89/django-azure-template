@@ -24,13 +24,13 @@ Start project
 Modify web.config
 =================
 
-Replace {{ project_name }} in _web.config_ to your own project_name.
+Replace {{ project_name }} in *web.config* to your own project_name.
 
 
 Install requirements
 =====================
 
-use Windows Azure, your should install all the dependencies into `site-packages` directory, you can use pip with -t args to do this. shown as below.
+Using Windows Azure, your have to install all the dependencies into *site-packages* directory, you can use pip with -t args to do this. shown as below.
 
 .. code-block:: sh
 
