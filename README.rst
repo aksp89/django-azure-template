@@ -21,10 +21,10 @@ Start project
     $ django-admin.py startproject <project_name> --template=https://github.com/tzangms/django-azure-template.git
 
 
-Change config
-==============
+Modify web.config
+=================
 
-Edit web.config, modify {{ project_name }} to your own project_name
+Replace {{ project_name }} in _web.config_ to your own project_name.
 
 
 Install requirements
