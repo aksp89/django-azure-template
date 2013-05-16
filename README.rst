@@ -1,0 +1,43 @@
+======================
+Django Azure Template
+======================
+
+Django project template for Windows Azure, let you deploy Django on Windows Azure in just a few steps.
+
+
+Install Django
+===============
+
+.. code-block:: sh
+
+    $ pip install django
+
+
+Start project
+==============
+
+.. code-block:: sh
+
+    $ django-admin.py startproject <project_name> --template=https://github.com/tzangms/django-azure-template.git
+
+
+Change config
+==============
+
+Edit web.config, modify {{ project_name }} to your own project_name
+
+
+Install requirements
+=====================
+
+use Windows Azure, your should install all the dependencies into `site-packages` directory, you can use pip with -t args to do this. shown as below.
+
+.. code-block:: sh
+
+    $ pip install django wsgiref -t site-packages
+
+
+Commit and Deploy
+=================
+
+You should commit your code using git, include the site-packages directory.
