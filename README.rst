@@ -40,4 +40,4 @@ use Windows Azure, your should install all the dependencies into `site-packages`
 Commit and Deploy
 =================
 
-You should commit your code using git, include the site-packages directory.
+Commit your code include the site-packages directory. and setup the deploy in Windows Azure with any VCS, then you should see your Django project running in a few minutes.
