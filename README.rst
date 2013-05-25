@@ -18,7 +18,7 @@ Start project
 
 .. code-block:: sh
 
-    $ django-admin.py startproject <project_name> --template=https://github.com/tzangms/django-azure-template.git
+    $ django-admin.py startproject <project_name> --template=https://github.com/tzangms/django-azure-template/zipball/master
 
 
 Modify web.config
